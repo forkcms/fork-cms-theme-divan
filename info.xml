@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+	<name>divan</name>
+	<version>1.0.0</version>
+	<requirements>
+		<minimum_version>3.0.0</minimum_version>
+	</requirements>
+	<thumbnail>thumbnail.png</thumbnail>
+	<description>
+		<![CDATA[
+			Divan is a theme designed by Simon Coudeville, developed by Mathias Helin.
+		]]>
+	</description>
+	<authors>
+		<author>
+			<name>Mathias Helin</name>
+			<url>http://www.helin.me</url>
+		</author>
+	</authors>
+	<metanavigation supported="false" />
+	<templates>
+		<template label="Default" path="core/layout/templates/default.tpl">
+			<positions>
+				<position name="main" />
+				<position name="right" />
+				<position name="top">
+					<defaults>
+						<widget module="search" action="form" />
+					</defaults>
+				</position>
+				<position name="bottomLeft">
+					<defaults>
+						<widget module="editor" />
+					</defaults>
+				</position>
+				<position name="bottomRight">
+					<defaults>
+						<widget module="editor" />
+					</defaults>
+				</position>
+			</positions>
+			<format>
+				[/, /, top],[main, main, right],[/, /, /],[bottomLeft, bottomLeft, bottomRight]
+			</format>
+		</template>
+	</templates>
+</theme>
