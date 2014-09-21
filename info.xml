@@ -19,23 +19,23 @@
 	</authors>
 	<metanavigation supported="false" />
 	<templates>
-		<template label="Default" path="core/layout/templates/default.tpl">
+		<template label="Default" path="Core/Layout/Templates/Default.tpl">
 			<positions>
 				<position name="main" />
 				<position name="right" />
 				<position name="top">
 					<defaults>
-						<widget module="search" action="form" />
+						<widget module="Search" action="Form" />
 					</defaults>
 				</position>
 				<position name="bottomLeft">
 					<defaults>
-						<widget module="editor" />
+						<widget module="Editor" />
 					</defaults>
 				</position>
 				<position name="bottomRight">
 					<defaults>
-						<widget module="editor" />
+						<widget module="Editor" />
 					</defaults>
 				</position>
 			</positions>
